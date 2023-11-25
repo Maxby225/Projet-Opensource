@@ -1,0 +1,115 @@
+CAHIER DE CHARGE PROJET INFORMATIQUE
+
+
+Que doit contenir un cahier des charges ?
+
+		Contexte du projet
+
+La première chose à faire lorsque l’on rédige un cahier des charges pour son application web est d’expliquer le contexte au prestataire,
+ pour lui permettre d’appréhender et de visualiser l’environnement du projet en question.
+Vous devez donc présenter votre entreprise, en détaillant son historique et en expliquant les services ou produits que vous proposez. 
+Vous pouvez également évoquer la taille de votre entreprise, son chiffre d'affaires, etc…
+?Ensuite, expliquez vos motivations à la conception d’une application et parlez des résultats que vous souhaitez atteindre.
+N’oubliez pas d’évoquer la cible que vous voulez toucher et ses caractéristiques ainsi que vos concurrents et ce qu’ils font
+ (cela peut être source d’inspiration pour votre prestataire).
+
+
+		Description du besoin : Le cahier des charges fonctionnel
+Là on attaque le gros du sujet ! C’est la description fonctionnelle de votre projet. 
+Vous devez détailler votre besoin au maximum. N’hésitez pas à y inclure des sources d’inspirations.
+
+	Première étape : le front-end
+Si vous ne savez pas ce qu’est le front-end, en voici une explication concise :
+ c’est la partie de l’application visible pour les utilisateurs. On y retrouve la navigation, 
+le graphisme, les animations, les moyens d’interactions, etc… Vous devez donc évoquer :
+
+la structure de l’application,
+ses fonctionnalités,
+l’UX pour l’expérience utilisateur,
+et y intégrer, si vous le souhaitez, un wireframe.
+
+	Seconde étape : le back-end
+Après le front-end, vient le back-end. Le back-end est la partie de l’application que les utilisateurs ne peuvent pas voir.
+ On y retrouve la gestion des données et des utilisateurs, la mise en réseau, etc… tous les éléments qui font fonctionner le système.
+ Pour aider votre prestataire dans la conception de votre application, vous devez :
+
+y faire apparaître certaines informations sur votre processus,
+évoquer vos souhaits en terme de gestion de votre back-end,
+etc.
+?
+	Troisième étape : les contraintes techniques
+Après avoir parlé du back-end et du front-end, vous devez préciser les contraintes techniques et les demandes supplémentaires auprès de votre prestataire.
+
+contraintes-technique
+On peut y retrouver :
+
+la question de l’hébergement (en avez-vous un ou le prestataire doit-il en proposer ?)
+la partie maintenance, ou comment assurer la maintenance après le lancement ??
+des demandes, comme la formation à l’utilisation du back-office, l’ajout de services, etc.
+et d’autres aspects, comme le fait que l’application devra être multilingue, par exemple.
+?
+
+	Quatrième étape : description de votre charte graphique et ergonomique
+Le cahier des charges va également vous être utile pour décrire ce que vous souhaitez comme résultat graphique et ergonomique sur votre application web. 
+Si vous possédez certains éléments visuels que vous pouvez fournir à votre prestataire, indiquez-le. Vous pouvez parler, par exemple :
+
+de la ou les couleur(s) de votre application web,
+des variations du code couleur selon les différentes “pages” de votre application,
+des éléments visuels que vous souhaitez utiliser, notamment votre logo,
+de la police que vous souhaitez.
+Également, si vous avez des envies supplémentaires pour étayer le graphisme de votre application 
+(exemple : animations particulières), n’hésitez pas à le mentionner.
+
+		Prestation et modalités attendues
+?
+	Première étape : Les tâches confiées au prestataire
+Arrivé à ce stade, on pourrait penser que cela semble évident, mais pourtant il est impératif de préciser “qui fait quoi” c’est-à-dire :
+
+qui fournira les contenus (textes et visuels) ? Vous ou le prestataire ?
+Avez-vous besoin de services supplémentaires ?
+Sur quoi l’équipe interne et le prestataire externe vont travailler ?
+etc…
+Vous devez définir le périmètre d’action de chacune des parties prenantes au projet. 
+Cela permettra à chacun de mieux comprendre quelles sont ses tâches et d’être plus efficaces et impliqués dans le projet.
+
+?
+
+	Deuxième étape : Le suivi de votre projet
+Lorsque vous aurez lancé votre application web en ligne, il sera nécessaire de suivre son évolution : c’est une étape cruciale.
+Les bonnes questions à se poser sont :
+Comment souhaitez-vous organiser ce suivi ?
+Souhaitez-vous avoir un accès à un environnement de pré-production ?
+Quelle méthodologie de gestion de projet souhaitez-vous utiliser ?
+Quels sont les outils dont vous aurez besoin pour assurer ce suivi ?
+
+	Troisième étape : Les délais
+Lorsque vous établissez un planning, soyez réaliste ! Un projet réussi demande un certain laps de temps.
+ Il faut également ajouter à cela les réunions physiques et virtuelles.
+Mais si les développeurs ont besoin d’un certain timing pour concevoir l’application,
+ vous devez également prendre le temps de réfléchir au design et faire le choix entre les différentes propositions.
+ La phase de recettage est également une période plus ou moins longue : c’est à ce moment-là que vous jugerez de la finalité de votre projet.
+Dans votre cahier des charges, vous pouvez indiquer des dates précises sur la production de prototypes, la phase de tests ainsi que la mise en ligne.
+
+	Quatrième étape : Les modalités de sélection du prestataire
+Les modalités de sélection sont importantes pour le prestataire et pour vous. 
+Cela va vous permettre d’indiquer à vos potentiels prestataires ce que vous souhaitez voir dans leurs réponses à votre cahier des charges.
+Vous pouvez demander à ce qu’ils vous présentent leur entreprise, les différentes méthodologies qu’ils utilisent, une présentation de l’équipe,
+des conseils supplémentaires, un devis détaillé, etc…
+Si vous avez su estimer un budget concernant la réalisation de votre projet web, vous pouvez également le glisser dans cette section.
+Votre prestataire tentera alors de respecter au maximum vos souhaits concernant le budget, tant que ce dernier reste réaliste.
+Et pour finir, n’oubliez pas d'indiquer le ou les contacts en cas de question sur le cahier des charges ainsi que la date limite de réponse.
+
+
+		Conseils pratiques pour la rédaction
+Vous savez maintenant comment structurer et rédiger votre cahier des charges ! Mais avant de vous y mettre, voici quelques conseils supplémentaires.
+Vous devez toujours intégrer dans votre cahier des charges quelques exemples d'applications que vous jugez inspirantes et dont les fonctionnalités vous plaisent.
+ Cela permettra de guider votre prestataire vers la bonne voie.
+Aucune impasse ne doit être faite durant la rédaction de votre cahier des charges
+ Vos potentiels prestataires doivent y voir les détails concernant le produit à livrer, le budget, le planning concernant les livraisons, etc…
+Néanmoins, attention au bon équilibre entre informations essentielles et informations superflues. 
+Rien ne sert de rendre un cahier des charges énorme avec peu d’informations utiles. Elles doivent être concrètes et précises.
+Et parmi ces informations, il est intéressant d’ajouter un glossaire afin d’expliquer certains termes que d’autres ne comprendraient pas.
+ En effet, votre cahier des charges va passer entre de nombreuses mains. Il est donc important que chaque individu comprenne l’ensemble du document.
+Enfin, il est important que chaque acteur du projet sache quel est son rôle. Chacun n’aura pas le même degré de responsabilité, ni les mêmes droits.
+ Vous devez donc penser à préciser qui sont les acteurs lorsque vous évoquez une fonctionnalité ou une spécificité.
+

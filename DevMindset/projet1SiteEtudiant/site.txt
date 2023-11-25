@@ -1,0 +1,77 @@
+		Comment concevoir un site Web ?
+
+
+Quelle que soit la solution retenue pour la création de votre site Web, de la plus simple à la plus complexe, toutes reposent sur les mêmes principes.
+		Imaginer la structure du site
+C'est l'étape la plus importante, celle qui déterminera la pertinence de votre site Web. 
+Il faut ici imaginer le contenu de la page d'accueil (la Home page) et l'arborescence des pages qui en découlent. 
+L'organisation de ces pages permettra d'y voir plus clair lorsqu'il s'agira d'intégrer les contenus que vous souhaitez publier. 
+C'est également à cette étape que vous pouvez définir, selon le contenu que vous voulez publier, 
+si vous souhaitez réaliser un site Web plutôt qu'un blog plus simple et plus pratique à mettre à jour (lire notre sélection de services gratuits pour créer un blog).
+
+
+	Enregistrer un nom de domaine
+Vous souhaitez donner un nom particulier à votre site afin que l'on puisse le trouver rapidement sur le Web. 
+Il vous faut enregistrer un nom de domaine auprès d'un registar. Il s'agit d'une société qui se chargera de faire toutes les démarches pour vous. 
+Il en existe des dizaines avec, parmi les plus connues Gandi, OVH, iOnos (anciennement 1&1) ou encore Domain.com pour n'en citer que quelques-uns.
+ Attention, ce service est payant. Si vous optez pour une plateforme clé en main, vous pouvez choisir votre propre nom de domaine ou l'accoler à le nom de la plateforme retenue.
+ Cette solution simple est aussi gratuite.
+
+
+	Trouver un hébergeur
+Pour être visible en ligne, votre site Web doit être installé sur des serveurs connectés à Internet.
+ Vous pouvez l'héberger sur un ordinateur chez-vous mais ce dernier doit donc rester allumé et relié au Web en permanence. 
+Par ailleurs, en cas de panne de la machine ou de l'un de ses composants (comme un disque dur), votre site ne sera plus accessible. 
+Si vous utilisez une plateforme prête à l'emploi, trouver un hébergeur est inutile. Votre site sera hébergé sur ses propres serveurs. 
+Enfin, pour les utilisateurs plus expérimentés, la plupart des registars (comme ceux évoqués ci-dessus) proposent également des solutions d'hébergement de site. 
+Là encore, le service n'est pas gratuit et se caractérise par un abonnement sur une ou plusieurs années. À vous de comparer pour l'offre la plus intéressante.
+
+
+	Alimenter et entretenir le site
+Une fois toutes les étapes précédentes validées, il ne reste plus qu'à réaliser le site Web avec le contenu que vous souhaitez publier. 
+Il faudra également le mettre à jour régulièrement pour que vos visiteurs viennent s'y connecter mais aussi pour que le référencement opéré par les moteurs de recherche 
+(Google en particulier) ne vous classe pas au fin fond des pages de résultats.
+
+	Quelles sont les solutions pour créer un site Web ?
+Selon votre niveau d'expertise et du temps que vous souhaitez consacrer à l'élaboration et la maintenance du site, 
+vous pouvez ainsi vous orienter vers une solution clé en main où tous les outils, simples à utiliser,
+ sont mis à votre disposition afin de vous laisser vous concentrer sur la création et le contenu.
+ Les utilisateurs plus expérimentés peuvent se tourner vers des plateformes plus puissantes qui proposent elles aussi des outils de création
+ et de maintenance ou s'appuyer sur des logiciels de gestion de contenu. Enfin, si vous avez de solides connaissances, 
+vous pouvez également écrire ou modifier vous-même le code HTML qui constitue vos pages Web.
+
+
+	Avec une plateforme tout-en-un
+Il en existe plusieurs comme Jimdo, Wix, Weebly ou encore Google Sites (lire notre sélection de services gratuits).
+ Principal avantage de ces plateformes : vous n'avez à vous soucier d'aucun aspect technique. Celle que vous aurez choisie s'occupe de tout : 
+nom de domaine, hébergement, outils de conception, etc. De votre côté, vous devez simplement fournir le contenu.
+ Certains services en ligne proposent même des formules "tout compris" pour petites entreprises et indépendants.
+ C'est le cas de Jimdo, par exemple, qui se charge du texte juridique et de la fiche d'établissement (obligatoires),
+ mais aussi des liens vers les réseaux sociaux et de la création du logo.
+
+
+	Avec une plateforme CMS
+Pour concevoir et assurer la maintenance de votre site Web vous pouvez aussi utiliser des plateformes comme Joomla, 
+WordPress ou encore Drupal pour n'en citer que quelques-uns. Il s'agit là de CMS, (Content Management System ou système de gestion de contenu en français). 
+Ces outils, à installer la plupart du temps sur votre ordinateur, permettent de concevoir et de mettre à jour votre site.
+ Vous pouvez ainsi travailler hors ligne – sans être connecter – et envoyer les modifications vers le serveur où le site est hébergé quand bon vous semble.
+ Plutôt puissant et permettant de concevoir des sites Web complexes, ces outils sont destinés à des utilisateurs expérimentés.
+ Ils nécessitent parfois de "mettre les mains dans le cambouis", ce qui réclame davantage de connaissances techniques (langage, HTML, CSS, Javascript, etc.). 
+Par ailleurs, si vous souhaitez créer un site d'e-commerce, il existe des outils dédiés permettant de gérer un catalogue de produit, un panier d'achat, 
+un système de paiement en ligne ou encore le suivi des commandes. Les principaux moteurs d'e-commerce sont Wix eCommerce, Prestashop, Shopify ou encore WooCommerce.
+ Enfin, si vous souhaitez créer une communauté en ligne autour d'un forum, les principaux moteurs de forum sont phpBB, vBulletin, XenForo ou encore MyBulletinBoard (MyBB).
+
+
+	En partant de zéro
+Si vous optez pour l'hébergement de votre site web, il sera nécessaire de créer les fichiers nécessaires à son fonctionnement.
+ Pour cela, il faudra au préalable apprendre le langage HTML au minimum mais fort heureusement, il existe de nombreux didacticiels sur le net.
+ Plusieurs solutions s'offrent ainsi à vous.
+
+En utilisant un framework d'application web, c'est-à-dire un environnement dans un langage de programmation permettant de créer des sites Web dynamiques, à condition de savoir coder.
+En Utilisant un éditeur HTML WYSIWYG (What You See Is What You Get, ou Ce que vous voyez est ce que vous obtenez en français).
+ Il s'agit d'un logiciel permettant de créer des pages web visuellement en plaçant des objets et des contrôles.
+ Le logiciel se charge de générer le code HTML automatiquement. Il s'agit d'une solution très pratique pour créer des pages Web,
+ car la complexité est en grande partie masquée. Cette méthode peut s'avérer contraignante si l'éditeur ne permet pas de réaliser ce que vous souhaitez.
+ Une connaissance du langage HTML est également souhaitable afin de pouvoir maîtriser les options d'édition plus poussées du logiciel, permettant notamment 
+de modifier manuellement des attributs de style. Le plus connu est Adobe Dreamweaver, payant ou bien BlueGriffon, KompoZer, Brackets et Aptana Studio (gratuits).
+En éditant les fichiers HTML "à la main", c'est-à-dire en saisissant le code HTML dans un fichier texte à l'aide d'un éditeur HTML en mode texte. Cette solution est de loin la plus fastidieuse (malgré la relative simplicité du langage HTML), mais reste toutefois la meilleure façon d'apprendre à réaliser un site, de comprendre comment celui-ci fonctionne, et d'être ainsi en mesure de créer un code optimisé et propre. Les principaux outils sont SublimeText, Notepad++, Visual Studio Code ou encore Atom.
