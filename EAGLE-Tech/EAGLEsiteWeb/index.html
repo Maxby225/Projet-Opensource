@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EAGLETECHNOLOGY</title>
+    <title>Acceuil -EagleTechnology</title>
+    <link rel="icon" href="images/LogoEagletechtrans2.png" >
     <link rel="stylesheet" href="style.css">
+    <!-- Styles de Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
 </head>
 <body>
     <div id="Principal">
@@ -12,133 +16,65 @@
             <div id="logo">
                 <img src="images/EAgetrans.png" alt="logoEagle">
             </div>
-            <div class="media-class"></div>
+    <!-- Ajoutez cette balise div pour le bouton Rejoignez-Nous -->
+    <div id="join-us-button" class="dance-effect">
+        <button type="button" onclick="scrollToBottom()">Rejoignez-Nous</button>
+    </div>
         </header>
-        <nav>
+        <nav id="navbar" class="initial">
             <ul>
-                <li><a href="Accueil">Accueil</a></li>
-                <li><a href="Presentation">Présentation</a></li>
-                <li><a href="#">Event</a></li>
-                <li><a href="#">Projets</a></li>
-                <li><a href="#">Partenaires</a></li>
-                <li><a href="#">Services</a></li>
-           </ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="evenement.html">Evènements</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="partenaires.html">Partenaires</a></li>
+            </ul>
         </nav>
-        <div id="Accueil">
-            <article>
-                <h1 style="font-size: 40px;">Welcom to <br> <strong style="font-size: 1.7em;">EAGLETECHNOLOGY_</strong></h1>
-                <p style="font-size: 25px;">Bienvenue sur le site d'EagleTechnology, un club innovant <br>
-                    née à UPB de l'initiative passionnée d'étudiants d’electronique(3EA)
-                    et d’informatique (MIAGE & ASSRI) .</p>
-                <div class="rejoindre">
-                    <button type="button">Rejoignez-Nous</button>
-                </div>
-            </article>
+        <div class="section" id="Accueil">
             <div id="club">
+                <div id="welcome-container">
+                    <div id="welcome-text">
+                        <p>Bienvenue sur le site d'EagleTechnology, un club innovant
+                            né à UPB de l'initiative passionnée d'étudiants d’électronique(3EA)
+                            et d’informatique (MIAGE & ASSRI). </p>
+                    </div>
+                    <a id="presentation-button" href="presentation.html">Voir la présentation</a>
 
+                </div>
+                <div class="rejoindre dance-effect" onclick="scrollToBottom()">
+                    <button type="button">Rejoignez-Nous</button>
+                </div>                
             </div>
         </div>
-        <section id="Presentation">
-            <p>Ceci est une section principale où vous pouvez ajouter du contenu spécifique à votre site.</p>
-            <p>
-                Projet: Réalisation
-                du site de la section club 
-                EAGLETECHNOLOGY
-                I
-                Presentation du club
-                II Presentation du bureau
-                III Cahier de charges
-                Sommaire 
-                I- Présentation de EagleTechnology
-                EagleTechnology trouve son origine dans une association 
-                d'étudiants qui nourrissaient l'ambition de donner naissance à une
-                startup arborant le nom de EagleTechnology. Leur action était 
-                orientée vers des projets d'écologie et d'énergies nouvelles et 
-                renouvelables, rendus réalisables par la digitalisation des secateurs
-                d'activités. Face aux défis de la connectivité, ils entreprenaient
-                ces avancées à travers des applications web et mobiles,
-                la robotique et l'automatisme.
-                Fidèle Dagne, issu de la filière 3EA, assumait la fonction de 
-                fondateur et président de cette association. Son objectif était de
-                faire évoluer cette entité estudiantine vers une startup. Il 
-                collaborait avec ses pairs de la filière Miage et Assri pour soutenir
-                la formation universitaire. Dans cette perspective, il a décidé 
-                d'établir une section club au sein de l'UPB, englobant diverses
-                filières afin d'attirer un nombre conséquent d'étudiants. Ces 
-                derniers étaient appelés à se concentrer sur la formation qu'ils
-                allaient recevoir, et à leur tour, à former d'autres adhérents. Ce 
-                système reposait sur un modèle de parrainage et de filleul, 
-                s'articulant chaque année dans le dessein d'élever le niveau de
-                chaque étudiant ayant adhéré à la section club. Par conséquent, Fidèle Dagne a transmis la 
-                responsabilité du club à Carole Koba, puis à Daniel Kambiré, son successeur à la 
-                présidence.
-                II- Présentation du bureau
-                President Daniel kambire
-                Secrétaire général ADEPOJU Abirat
-                 Trésorière COULIBALY FATIM
-                 Manager 3EA COULIBALY SIÉ JOSUE 
-                * Projet Réaliser
-                 Parking Automatique 
-                 Poubelle Automatique 
-                Arrosage intelligente
-                 Tracker suiveur de ligne 
-                 Tracker Solaire 
-                Tapis roulant et Détection de Couleurs
-                Voiture commander par un module Bluetooth 
-                III- Cahier des charges 
-                1.1- Les objectifs du site
-                Un site de présentation du club et ses activités pour une 
-                meilleure visibilité et accessibilité d’informations.
-                1.2- La cible adressée par le site
-                Les étudiants et les futurs partenaires de EAGLETECHNOLOGY.
-                Les étudiants ont besoin d’avoir les informations sur le club
-                Car ils pourraient être tenté de s’associer aux activités du 
-                club.
-                Pour les partenaires ça sera l’occasion de voir le 
-                professionalisme du club et donc de les conforté quant au fait 
-                de s’associer à la startup
-                1.3- Perimètre du projet
-                -- Le site sera en français et en anglais car on vise toutes
-                Sortes d’entreprises partenaire ou personnes.
-                - Pour ceux qui ne comprennent pas l’anglais ils ameliorons
-                Leurs nivaux d’anglais vice-versa.
-                - Il y aura aussi de la traduction automatique d’une langue 
-                à une autre pour ceux qui veulent.
-                1.4- Informations relatives aux contenus
-                - Présentation du club de manière brève sur la première page 
-                dès l’ouverture du site.
-                - Avoir la photo ou logo du club sur chaque page pour marquer 
-                la présence du club dans l’esprit des visiteurs.
-                Presentation des activitées du club sur une vignette en haut sur 
-                laquelle on va cliquer pour acceder à une autre page de 
-                presentation des activités.
-                - La localisation de EAGLETECHNOLOGY en bas de la page.
-                - Les projets réalisés par EAGLETECHNOLOGY sur une autre 
-                vignette haut qui reconduira vers une autre page.
-                - La presentation du club sur une vignette en haut qui cette fois 
-                une fois cliqué sur la vignette donnera un pdf un peu plus 
-                détaillé sur le club et les membres du bureau.
-                - Présentation des partenaires de EAGLETECHNOLOGY sur une 
-                vignette en haut de la page.
-                - Un espace Laisser un message que ce soit pour l’ association 
-                de votre image à EAGLETECHNOLOGY ou laisser un 
-                commentaire sur EAGLETECHNOLOGY en bas de la page de 
-                maniere visible avec un espace pour ecrire.
-                -- Les differents medias de EAGLETECHNOLOGY au bas de la 
-                page, des medias comme Linkedin , Discord , github...
-                - Une vignette en haut appélé produits qui va presenté quelques 
-                produits d’actualités, les nouvelles tendances et methodologies 
-                en rapport avec les differentes filières de EAGLETECHNOLOGY.
-                -Un album de tout les responsables, qui sera mise à jour à chaque
-                Passation de charge.
-                - Presentation des presidents de club et ses membres du bureau 
-                par promotion. 
-                Thank you!  
-            </p>
-            
-        </section>
-        
-        <section id="projets">
+        <div class="section" id="Presentation">
+            <!-- Ajout de la classe slick-carousel à la div contenant le slider -->
+            <div id="slider" class="slick-carousel">
+                <div class="slick-card">
+                    <h1>Article 1</h1>
+                    <p>Ceci est le contenu de l'article 1.</p>
+                </div>
+                <div class="slick-card">
+                    <h1>Article 2</h1>
+                    <p>Ceci est le contenu de l'article 1.</p>
+                </div>
+                <div class="slick-card">
+                    <h1>Article 3</h1>
+                    <p>Ceci est le contenu de l'article 1. <br>
+                        Ceci est le contenu de l'article 1. <br>
+                        Ceci est le contenu de l'article 1. <br>
+                        Ceci est le contenu de l'article 1. <br>
+                        Ceci est le contenu de l'article 1. <br>
+                        Ceci est le contenu de l'article 1. <br>
+                    </p>
+                </div>
+                <div class="slick-card">
+                    <h1>Article 4</h1>
+                    <p>Ceci est le contenu de l'article 2.</p>
+                </div>
+                <!-- Ajoutez autant de slick-card que nécessaire -->
+            </div>
+        </div>
+        <section class="section" id="projets">
             <h2>Notre palmarès</h2>
             <div id="prix1">
                 <p>Nous avons participé à ... du ... au ... à ... .<br>
@@ -157,9 +93,88 @@
         </section>
 
         <footer>
-            <p>&copy; 2023 Mon Site Web. Tous droits réservés.</p>
+            <div>
+            <section id="localisation-footer">
+                <h2>Localisation</h2>
+                <p>EagleTechnology est basée à l'Université Polytechnique de Bingerville (UPB) à Abidjan.
+                </p>
+            </section>
+                <!-- Nouvelle division pour le logo Eagle Technology -->
+            <!-- Logo Google Maps à côté du texte de localisation -->
+            <section id="google-maps-footer">
+                <a href="Lien Google Maps" target="_blank">
+                    <img src="images/icons8-google-maps-old-48.png" alt="Google Maps">
+                </a>
+                <p>Retrouvez-nous sur Google Maps</p>
+            </section>
+        
+            <!-- Liens vers les médias sociaux -->
+            <section id="reseaux-sociaux">
+                <h2>Connectez-vous avec nous</h2>
+                <div class="medias-sociaux">
+                    <a class="effet-survol" href="lien-github" target="_blank"><img src="images/icons8-github-50.png" alt="GitHub"></a>
+                    <a class="effet-survol" href="lien-facebook" target="_blank"><img src="images/icons8-facebook-48.png" alt="Facebook"></a>
+                    <a class="effet-survol" href="lien-instagram" target="_blank"><img src="images/icons8-instagram-48.png" alt="Instagram"></a>
+                    <a class="effet-survol" href="lien-twitter" target="_blank"><img src="images/icons8-twitter-48.png" alt="Twitter"></a>
+                    <a class="effet-survol" href="lien-linkedin" target="_blank"><img src="images/icons8-linkedin-48.png" alt="LinkedIn"></a>
+                </div>
+            </section>
+        
+            <p class="right">&copy; 2023 EAGLETECHNOLOGY. Tous droits réservés.</p>
         </footer>
         
+        
     </div>
+
+<!-- Scripts de Slick Carousel et jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    });
+
+    function scrollToBottom() {
+            window.scrollTo(0, document.body.scrollHeight);
+        }
+        // Sélectionnez la barre de navigation
+var navbar = document.getElementById('navbar');
+
+// Récupérez la position initiale de la barre de navigation
+var initialOffset = navbar.offsetTop;
+
+// Ajoutez un écouteur d'événements de défilement à la fenêtre
+window.addEventListener('scroll', function() {
+    // Vérifiez si le défilement est au-dessus de la position initiale
+    if (window.scrollY > initialOffset) {
+        // Ajoutez la classe pour fixer la barre de navigation
+        navbar.classList.add('fixed');
+    } else {
+        // Retirez la classe si le défilement est en haut
+        navbar.classList.remove('fixed');
+    }
+});
+</script>
 </body>
 </html>
