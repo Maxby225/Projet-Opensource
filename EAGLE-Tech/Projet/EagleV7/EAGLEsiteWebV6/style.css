@@ -1,0 +1,768 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: auto; /* Ajoutez cette propriété pour le défilement horizontal */
+}
+
+#Principal {
+    width: 100%; /* Ajustez selon vos besoins */
+    overflow: hidden; /* Empêche les éléments de déborder */
+}
+
+
+.media-class{
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+}
+#logo{
+    display: flex;
+    width: 7em;
+    height: 7em;
+}
+
+
+
+.rejoindre {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+}
+
+/* Ajoutez ces styles pour le bouton "Rejoignez-Nous" */
+.rejoindre button {
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Ajoutez la transition pour le changement de couleur */
+}
+
+.rejoindre button {
+    width: 180px;
+    height: 60px;
+    font-size: 20px; /* Ajustez la taille du texte selon vos besoins */
+    border: none;
+    border-radius: 25px; /* Bordures arrondies */
+    background-color: #070c3a;
+    color: aliceblue;
+    opacity: 1; /* Garder l'opacité constante */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Ajoutez une classe pour l'effet de danse sur le bouton */
+.dance-effect {
+    animation: danceButton 1s infinite alternate;
+}
+
+/* Animation pour le bouton */
+@keyframes danceButton {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Ajout d'une animation pour le bouton lorsqu'il est survolé */
+.rejoindre button:hover {
+    transform: scale(1.1);
+    animation: none; /* Désactiver l'animation au survol */
+}
+
+.rejoindre button:hover {
+    transform: scale(1.1);
+    background-color: #000831; /* Changez la couleur au survol */
+    color: #fff; /* Changez la couleur du texte au survol */
+}
+
+/* Changez le curseur au survol du bouton */
+.rejoindre button:hover, .rejoindre button:active {
+    cursor: pointer;
+}
+
+
+/* Ajoutez une classe pour l'effet de danse sur le bouton */
+.dance-effect {
+    animation: danceButton 1s infinite alternate-reverse;
+}
+
+#trans{
+    background-image:url('images/LogoEagletechtrans2.png');
+    background-size:25%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    vertical-align: baseline;
+    overflow: hidden;
+    opacity:0.5;
+
+}
+
+#club {
+    position:absolute;
+    background-image:url('images/acceuil1.png');
+    background-size: cover;
+    width: 100%;
+    max-height: 600px;
+    display: inline-block;
+    vertical-align: baseline;
+    overflow: hidden; /* Empêche le débordement du texte */
+    box-shadow: 1px 2px 10px #000831;
+    }
+
+#welcome-text {
+    color: #fff;
+    font-size: 20px; /* Ajustez la taille du texte selon vos besoins */
+    
+}
+
+#welcome-text h1{
+
+    font-size: 50px; 
+
+}
+
+
+#welcome-container {
+    position: relative;
+    background-color: #000831;
+    background-repeat: no-repeat;
+    background-size:contain;
+    border-radius: 3%;
+    opacity: 0.9;
+    max-width: 400px;
+    text-align:start;
+    margin-top: 5%;
+    margin-left:5%;
+    padding: 2%;
+   
+}
+
+
+
+#presentation-button {
+    display: inline-block;
+    padding: 5px 10px; /* Ajustez selon vos besoins */
+    border: 2px solid #4109c5; /* Couleur de la bordure */
+    border-radius: 15px; /* Rayon des coins de la bordure */
+    background-color: #E8F5E9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    font-weight: bold;
+    text-decoration: none; /* Supprimez la soulignement du lien */
+    transition:color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-right: 30px; /* Ajustez la marge gauche selon vos besoins */
+}
+
+#presentation-button:hover {
+    background-color: #2c3254; /* Changez la couleur au survol */
+    color: #fff; /* Changez la couleur du texte au survol */
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    #trans {
+        height: 400px;
+    }
+
+    #club {
+        max-height: 200px;
+    }
+
+    #welcome-container {
+        max-width: 35%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #welcome-text {
+        font-size: 10px;
+    }
+    #welcome-text h1{
+        font-size: 15px;
+    }
+
+    #presentation-button {
+        font-size: 8px;
+    }
+
+    .rejoindre button {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+}
+
+footer {
+    background-color: #0b1039;
+    color: white;
+    padding: 0.5em; /* Ajustez la marge intérieure selon vos besoins */
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.medias-sociaux a {
+    margin-right: 10px;
+    transition: opacity 0.3s ease-in-out; /* Supprimer la transformation ici */
+    opacity: 0.7; /* Valeur de transparence par défaut */
+    color: white; /* Ajout de cette ligne pour définir la couleur du texte */
+}
+
+/* Changez le curseur au survol des liens */
+.medias-sociaux a:hover, #google-maps-footer a:hover, nav a:hover {
+    cursor: pointer;
+}
+
+/* Ajoutez une classe pour le changement de couleur du bouton après le clic */
+.clicked {
+    background-color: #2c3254 !important;
+    color: #fff !important;
+}
+
+/* Ajoutez une classe pour le changement de curseur après le clic */
+.clicked, .clicked:hover {
+    cursor: not-allowed !important;
+}
+
+
+#google-maps-footer a {
+    text-decoration: none;
+    transition: opacity 0.3s ease-in-out; /* Ajouter une transition pour une animation fluide */
+    opacity: 0.7; /* Valeur de transparence par défaut */
+    color: white; /* Couleur du texte */
+}
+
+#google-maps-footer a:hover {
+    opacity: 1; /* Afficher la couleur normale au survol */
+    color: white; /* Vous pouvez ajuster la couleur du texte au survol si nécessaire */
+}
+
+.right {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #4CAF50; /* Couleur de la bordure */
+    border-radius: 15px; /* Rayon de la bordure pour des coins arrondis */
+    background-color: #E8F5E9; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras pour plus de visibilité */
+    animation: dance 1s infinite alternate;
+}
+
+@keyframes dance {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Ajoutez ces styles pour l'effet de survol des liens */
+.effet-survol {
+    position: relative;
+    overflow: hidden;
+    color: #fff; /* Couleur de texte par défaut */
+}
+
+.effet-survol::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff; /* Couleur de la ligne */
+    transform: scaleX(0); /* Définir l'échelle X à 0 par défaut */
+    transform-origin: right;
+    transition: transform 0.3s ease; /* Ajoutez une transition pour une animation fluide */
+}
+
+.effet-survol:hover::before {
+    transform: scaleX(1); /* Étendre la ligne à 100% au survol */
+    transform-origin: left;
+}
+
+/* Ajoutez ces styles pour la couleur du texte au survol */
+.effet-survol:hover {
+    filter: brightness(1.2); /* Augmenter la luminosité au survol */
+}
+
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color:#0b1039;
+    justify-content: center;
+}
+
+
+#navbar ul li a:hover {
+    background:#001896;
+}
+
+
+#navbar ul li {
+    margin: 0;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Nouvelle classe pour positionner et styliser le bouton Rejoignez-Nous */
+#join-us-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#join-us-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#join-us-button button:hover {
+    background-color: #555;
+}
+
+/* Classe pour l'effet de danse
+.dance-effect {
+    animation: dance 1s infinite;
+} */
+
+/* Définition de l'animation de danse */
+@keyframes dance {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+/**style présentation**/
+/* Style pour la deuxième partie (.parti2) */
+.parti2 {
+    background-image: url('images/fond2.png');
+}
+
+#zone1{
+    display: flex;
+    flex-direction: column; /* Met les éléments en colonne (par défaut, ils sont en ligne) */
+    align-items: center;
+    
+}
+
+.art1 {
+    box-shadow: 0px 7px 8px #000831;
+    background-color:  #001896 ;
+    color: #fff;
+    border-bottom-left-radius:30%;
+    padding: 4%;
+    text-align:start;
+    max-width: 600px;
+    margin-right:40%;
+    margin-left: 5%;
+    margin-top: 250px;
+    margin-bottom: 60px; /* Ajoute un espacement entre les articles */
+    opacity: 0.8;
+    
+}
+
+.art1 h1 {
+    font-size: 40px;
+}
+
+  .art2 {
+    box-shadow: 5px 0px 10px #000831;
+    background-color: #001896;
+    color: #fff;
+    border-top-right-radius:30%;
+    padding: 4%;
+    text-align: start;
+    margin-left:40%;
+    margin-right: 5%;
+    max-width: 600px;
+    margin-bottom: 50px; /* Ajoute un espacement entre les articles */
+    opacity: 0.8;
+  }
+  .art2 h1 {
+    font-size: 40px;
+}
+
+  .titre{
+    margin-left: 21%;
+    padding: 2%;
+    background-color: #001896;
+    border-top-right-radius:50%;
+    border-bottom-left-radius: 20%;
+    font-size: 150%;
+    color:#fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ 
+  
+  
+  .photo-presentation {
+    display: flex;
+    white-space: nowrap;
+    width: 9%;
+    margin-right: 85%;
+    margin-top: 5%;
+
+  }
+  
+  .photo-container {
+    margin: 9%;
+    border-end-end-radius: 10%;
+    border-top-left-radius: 10%;
+    flex: 0 0 155%; /* Chaque container occupe toute la largeur de l'écran */
+    scroll-snap-align: start; /* Aligner sur le début du conteneur lors du défilement */
+    overflow: hidden;
+    box-shadow: 1px 2px 10px #888888;
+  }
+  
+  .photo-container img {
+    width: 120%;
+    height: auto;
+    transition: transform 0.3s ease; /* Effet de transition pour un changement fluide */
+  }
+  
+  .photo-container:hover img {
+    transform: scale(1.2); /* Zoom au survol */
+  }
+  .photo-container p{
+    border-top-left-radius: 20%;
+    border-end-end-radius: 20%;
+    background-color:#001896;
+    color:#fff;
+    opacity:0.9;
+    margin:10%;
+    padding:8%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+
+  }
+  @media only screen and (max-width: 600px) {
+
+    
+.art1 {
+       width: 200px;
+       margin-top: 50px;
+   
+    
+}
+
+
+.art1 h1 {
+    font-size: 25px;
+    
+}
+.art1 p {
+    font-size: 11px;
+    text-align: center;
+}
+
+  .art2 {
+        font-size: 55%;
+  }
+.art2 h1 {
+    font-size: 25px;
+}
+.art2 p {
+    font-size: 11px;
+}
+
+  .titre{
+    font-size: small;
+  }
+    
+  .photo-presentation {
+    width: 30%;
+    margin-right:70%;
+
+  }
+
+  .photo-container {
+    margin:2%;
+    flex: 0 0 50%;
+  }
+  .photo-container p{
+    border-top-left-radius: 8%;
+    border-end-end-radius: 8%;
+    font-size: 1%;
+    padding:4%;
+
+  }
+  .photo-container img {
+    width: 100%;
+}
+
+  .photo-container:hover img {
+    transform: scale(1.1);
+  }
+
+  }
+  /**Projets partie3**/
+.section{
+    background-image: url('images/fond2.png');
+    display: flex;
+    flex-direction: column; /* Met les éléments en colonne (par défaut, ils sont en ligne) */
+    align-items: center;
+}
+.banniere-projet{
+            text-align:center;
+            padding: 3px;
+            background-color:#001896;
+            opacity: 0.8;
+            border-radius: 10px;
+            margin: 5%;
+            box-shadow: 0px 7px 8px #000831;
+            width: 80%;
+}
+.banniere-projet h1{
+    color: #fff;
+    font-size:40px;
+}
+
+.banniere-projet p{
+    color: #fff;
+}
+
+.slide-projet {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; /* Pour le défilement fluide horizontalement */
+    white-space: nowrap;
+    width: 40%;
+    
+  }
+ 
+  .container-projet {
+    background-image: url('images/fond.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
+    flex: 0 0 90%; /* Chaque container occupe toute la largeur de l'écran */
+    scroll-snap-align: start; /* Aligner sur le début du conteneur lors du défilement */
+    overflow: hidden;
+    box-shadow: 1px 2px 10px #888888;
+   
+  
+  }
+  
+  .id1{
+    display:flex;
+    align-items:center;
+    margin:5%;
+  }
+  .idimage{
+    width: 100%;
+    overflow: hidden;
+  }
+  .idimage img{
+    
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    display: block;
+
+  }
+  .id1 article{
+    padding:10px;
+    
+}
+.id2 article{
+    padding: 5px;
+}
+
+.container-description{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column; /* Met les éléments en colonne (par défaut, ils sont en ligne) */
+    align-items: center;
+
+}
+.projet-description1{
+    background-image: url('images/fond.png');
+    background-size:cover;
+    border-radius: 10%;
+    margin-left: 5%;
+    flex: 0 0 50%; /* Chaque container occupe toute la largeur de l'écran */
+    overflow: hidden;
+    box-shadow: 1px 2px 10px #000831;
+    color: #001896 ;
+    margin-bottom: 60px; 
+    margin-right: 40%;
+
+}
+.projet-description2{
+    background-image: url('images/fond.png');
+   
+    background-size: contain;
+    border-radius: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex: 0 0 50%; /* Chaque container occupe toute la largeur de l'écran */
+    scroll-snap-align: start; /* Aligner sur le début du conteneur lors du défilement */
+    overflow: hidden;
+    box-shadow: 1px 2px 10px #000831;
+    margin-left:40%;
+    color: #001896 ;
+    margin-bottom: 60px; 
+  
+
+}
+
+.desc-texte{
+    text-align: start;
+}
+
+.desc-texte h3{
+    text-align: center;
+}
+
+.desc-texte p{
+    margin-left: 10%;
+}
+.desc-texte1{
+    text-align: start;
+}
+.desc-texte1 h3{
+    text-align: center;
+}
+.desc-texte1 p{
+    margin-left: 10%;
+}
+.id2{
+    display:flex;
+    align-items:center;
+    margin:5%;
+}
+
+.idimg img{
+    
+    border-radius: 10%;
+    width: 80%;
+    height: auto;
+    display: block;
+
+  }
+  @media only screen and (max-width: 600px) {
+
+    .banniere-projet{
+        text-align:start;
+        padding: 1px;
+        background-color:#001896;
+        opacity: 0.8;
+        border-radius: 10px;
+        margin: 5%;
+        box-shadow: 0px 7px 8px #000831;
+}
+
+    .banniere-projet h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .banniere-projet p{
+        margin:5%;
+        font-size: 10px;
+    }
+
+    .slide-projet {
+        width: 80%;
+
+      }
+
+      .container-projet {
+   
+        border-radius: 7%;
+        margin-right: 7%;
+        flex: 0 0 100%; 
+      }
+
+
+  }
+  /*partie4 Evenement**/
+
+
+  .even1{
+    margin: 0% 0% 4%;
+    padding: 1%;
+    background-color: #e6e3e3;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+
+  }
+.eventexte{
+    text-align:start;
+    margin-left:5%;
+}
+
+.eventexte h1{
+    font-size:50px;
+}
+  figure {
+    flex: 0 0 40%; /* Chaque container occupe toute la largeur de l'écran */
+    overflow: hidden;
+    margin-left: 30%;
+  }
+
+  figure img{
+
+        display:block;
+        width:100%;
+        height: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    
+.eventexte h1{
+    font-size:15px;
+}
+
+figure {
+    margin-left: 0%;
+  }
+    
+  }
+
+  .animate__fadeInUp {
+    animation-duration: 3s;
+}
+
+
